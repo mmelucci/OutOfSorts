@@ -9,7 +9,7 @@ public class Sorts{
     boolean swap;
     for (int j = data.length-1; j >= 0; j --) {
       swap = false;
-      System.out.println(Arrays.toString(data));
+      // System.out.println(Arrays.toString(data));
       for (int i = 0; i < j; i ++) {
         if (data[i] > data[i+1]) {
           temp = data[i];
