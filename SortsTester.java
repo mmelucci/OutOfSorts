@@ -9,8 +9,11 @@ public class SortsTester {
     // Sorts.bubbleSort(test2);
     // Sorts.bubbleSort(test3);
     // Sorts.bubbleSort(test4);
-		Sorts.selectionSort(test1);
-		Sorts.selectionSort(test2);
-		Sorts.selectionSort(test3);
+		// Sorts.selectionSort(test1);
+		// Sorts.selectionSort(test2);
+		// Sorts.selectionSort(test3);
+		Sorts.insertionSort(test1);
+		Sorts.insertionSort(test2);
+		Sorts.insertionSort(test3);
   }
 }
