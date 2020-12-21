@@ -25,5 +25,18 @@ public class Sorts{
   }
 
   public static void selectionSort(int[] data) {
+    for (int j = 0; j < data.length-1; j++){
+      int minimum = data[j];
+      int temp = 0;
+      for (int i = j; i < data.length; i ++) {
+        if (data[i] < minimum) {
+          minimum = data[i];
+          temp = data[j];
+          data[j] = minimum;
+          data[i] = temp;
+        }
+      }
+        // System.out.println(Arrays.toString(data));
+    }
   }
 }

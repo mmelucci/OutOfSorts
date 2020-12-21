@@ -5,9 +5,12 @@ public class SortsTester {
     int[] test2 = {};
     int[] test3 = {1, 1, 1, 2, 1502, 2, 4, 2,1231, 1};
     int[] test4 = {10, 9, 8, 7, 6, 5, 4, 1};
-    Sorts.bubbleSort(test1);
-    Sorts.bubbleSort(test2);
-    Sorts.bubbleSort(test3);
-    Sorts.bubbleSort(test4);
+    // Sorts.bubbleSort(test1);
+    // Sorts.bubbleSort(test2);
+    // Sorts.bubbleSort(test3);
+    // Sorts.bubbleSort(test4);
+		Sorts.selectionSort(test1);
+		Sorts.selectionSort(test2);
+		Sorts.selectionSort(test3);
   }
 }
