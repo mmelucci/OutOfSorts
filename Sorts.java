@@ -49,7 +49,7 @@ public class Sorts{
             data[k+1] = data[k];
           }
           data[i] = temp;
-          System.out.println(Arrays.toString(data));
+          // System.out.println(Arrays.toString(data));
         }
       }
     }
